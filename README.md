@@ -35,8 +35,8 @@ This assignment should prove that a student is able to:
 - [x] Fork the project to your github account
 - [x] Clone the project to your computer
 - [x] Open the project in VSCode with `code <cloned_repo_folder_name>`
-- [ ] **This Assignment is NOT tested. You can use all the desired creativity!**
-- [ ] All the tasks of the "Specific requirements" section MUST be solved
+- [x] **This Assignment is NOT tested. You can use all the desired creativity!**
+- [x] All the tasks of the "Specific requirements" section MUST be solved
 - [x] **The project's file/folder structure should NOT be edited!**
 - [x] **The index.html file should NOT be edited!** The only acceptable change are additional classes added to elements.
 - [x] VSCode IDE MUST have 0 problems listed
@@ -55,21 +55,21 @@ This assignment should prove that a student is able to:
   - Font decoration
   - Font transformation
   - Font family
-- [ ] Set the font size using fixed pixel values.
+- [x] Set the font size using fixed pixel values.
 - [x] Use at least two color systems of your choice for setting the color (hex, rgb, hsl, etc.).
-- [ ] Ensure each font weight value from the given list is used at least once:
+- [x] Ensure each font weight value from the given list is used at least once:
   - Bold
   - Normal
   - 400
   - 700
-- [ ] Each text decoration value from the provided list should be used at least once:
+- [x] Each text decoration value from the provided list should be used at least once:
   - Underline
   - Line-through
   - Overline
   - None
-- [ ] Include capitalized letters.
-- [ ] Style every letter in the message.
-- [ ] Group selectors with the same styles.
+- [x] Include capitalized letters.
+- [x] Style every letter in the message.
+- [x] Group selectors with the same styles.
 
   You can group the letter selectors by the common styles:
 
@@ -93,5 +93,5 @@ This assignment should prove that a student is able to:
   <div class="yellow-letter letter-two">W</div>
   ```
 
-- [ ] The HTML document should NOT have inline styles.
-- [ ] There are 3 Google Fonts connected to the project. Find and connect 3 more random fonts from Google fonts. Feel free to use [this article](https://www.webdesignerdepot.com/2021/09/21-exceptional-google-fonts-you-probably-havent-discovered-yet/) or the [Google Fonts](https://fonts.google.com/) platform for the fonts inspiration.
+- [x] The HTML document should NOT have inline styles.
+- [x] There are 3 Google Fonts connected to the project. Find and connect 3 more random fonts from Google fonts. Feel free to use [this article](https://www.webdesignerdepot.com/2021/09/21-exceptional-google-fonts-you-probably-havent-discovered-yet/) or the [Google Fonts](https://fonts.google.com/) platform for the fonts inspiration.

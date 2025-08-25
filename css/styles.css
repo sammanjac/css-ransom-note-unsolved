@@ -105,8 +105,8 @@ body {
 .didDLetter {
   font-size: 60px;
   font-weight: bold;
-  background: darkred;
-  color: lightgreen;
+  background: #8b0000;
+  color: #90ee90;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Rubik Bubbles", system-ui;
@@ -122,7 +122,9 @@ body {
   font-family: "Ruslan Display", sans-serif;
 }
 
-.didDTwoLetter {
+.didDTwoLetter,
+.frontendDLetter,
+.takeTLetter {
   font-size: 50px;
   font-weight: bold;
   background: greenyellow;
@@ -156,7 +158,7 @@ body {
 
 .theELetter {
   font-size: 60px;
-  font-weight: bold;
+  font-weight: 700;
   background: darkorange;
   color: lightblue;
   text-decoration: overline;
@@ -169,8 +171,8 @@ body {
 .frontendFLetter {
   font-size: 60px;
   font-weight: bold;
-  background: darkred;
-  color: lightgreen;
+  background: #8a0000;
+  color: #90ee90;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Rubik Bubbles", system-ui;
@@ -188,7 +190,7 @@ body {
 
 .frontendOLetter {
   font-size: 50px;
-  font-weight: bold;
+  font-weight: normal;
   background: greenyellow;
   color: orange;
   text-decoration: overline;
@@ -236,7 +238,7 @@ body {
   font-family: "Ruslan Display", sans-serif;
 }
 
-.frontendDLetter {
+/*.frontendDLetter {
   font-size: 50px;
   font-weight: bold;
   background: greenyellow;
@@ -244,7 +246,7 @@ body {
   text-decoration: overline;
   text-transform: uppercase;
   font-family: "Barrio", system-ui;
-}
+}*/
 
 /* DEVELOPER word */
 
@@ -340,6 +342,7 @@ body {
 
 /* TAKE word */
 
+/*
 .takeTLetter {
   font-size: 50px;
   font-weight: bold;
@@ -348,7 +351,7 @@ body {
   text-decoration: overline;
   text-transform: uppercase;
   font-family: "Barrio", system-ui;
-}
+}*/
 
 .takeALetter {
   font-size: 70px;
