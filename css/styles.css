@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+/* Fonts added for styles */
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Rubik+Bubbles&family=Ruslan+Display&display=swap');
+
+.barrio-regular {
+  font-family: "Barrio", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ruslan-display-regular {
+  font-family: "Ruslan Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rubik-bubbles-regular {
+  font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 
 * {
   padding: 0;
@@ -37,7 +57,7 @@ body {
   gap: 20px;
 }
 
-.word > span {
+.word>span {
   position: relative;
   padding: 20px 30px;
   width: max-content;
@@ -56,249 +76,879 @@ body {
 .whyWLetter {
   font-size: 72px;
   font-weight: bold;
+  background: green;
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Barrio", system-ui;
 }
 
 .whyHLetter {
   font-size: 30px;
   font-weight: bold;
+  background: darkblue;
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  font-family: "Moo Lah Lah", sans-serif;
 }
 
 .whyYLetter {
   font-size: 60px;
   font-weight: normal;
+  background: darkorchid;
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  font-family: "Ruslan Display", sans-serif;
 }
 
 /* DID word */
 
 .didDLetter {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkred;
+  color: lightgreen;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
 
 .didILetter {
+  font-size: 40px;
+  font-weight: normal;
+  background: green;
+  color: violet;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
 
 .didDTwoLetter {
+  font-size: 50px;
+  font-weight: bold;
+  background: greenyellow;
+  color: orange;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
 
 /* THE word */
 
 .theTLetter {
+  font-size: 70px;
+  font-weight: bold;
+  background: purple;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
 
 .theHLetter {
+  font-size: 50px;
+  font-weight: normal;
+  background: darkcyan;
+  color: magenta;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
 
 .theELetter {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkorange;
+  color: lightblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
 
 /* FRONT-END word */
 
 .frontendFLetter {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkred;
+  color: lightgreen;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
 
 .frontendRLetter {
+  font-size: 40px;
+  font-weight: normal;
+  background: green;
+  color: violet;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
 
 .frontendOLetter {
+  font-size: 50px;
+  font-weight: bold;
+  background: greenyellow;
+  color: orange;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
 
 .frontendNLetter {
+  font-size: 70px;
+  font-weight: bold;
+  background: purple;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
 
 .frontendTLetter {
+  font-size: 50px;
+  font-weight: normal;
+  background: darkcyan;
+  color: magenta;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
 
 .frontendELetter {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkorange;
+  color: lightblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
 
 .frontendNTwoLetter {
+  font-size: 40px;
+  font-weight: normal;
+  background: green;
+  color: violet;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
 
 .frontendDLetter {
+  font-size: 50px;
+  font-weight: bold;
+  background: greenyellow;
+  color: orange;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
 
 /* DEVELOPER word */
 
 .developerDLetter {
+  font-size: 70px;
+  font-weight: bold;
+  background: purple;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
+
 .developerELetter {
+  font-size: 50px;
+  font-weight: normal;
+  background: darkcyan;
+  color: magenta;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .developerVLetter {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkorange;
+  color: lightblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .developerETwoLetter {
+  font-size: 40px;
+  font-weight: normal;
+  background: green;
+  color: violet;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .developerLLetter {
+  font-size: 50px;
+  font-weight: bold;
+  background: greenyellow;
+  color: orange;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .developerOLetter {
+  font-size: 70px;
+  font-weight: bold;
+  background: purple;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
+
 .developerPLetter {
+  font-size: 50px;
+  font-weight: normal;
+  background: darkcyan;
+  color: magenta;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .developerEThreeLetter {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkorange;
+  color: lightblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .developerRLetter {
+  font-size: 40px;
+  font-weight: normal;
+  background: green;
+  color: violet;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
 
 /* TAKE word */
 
 .takeTLetter {
+  font-size: 50px;
+  font-weight: bold;
+  background: greenyellow;
+  color: orange;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .takeALetter {
+  font-size: 70px;
+  font-weight: bold;
+  background: purple;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
+
 .takeKLetter {
+  font-size: 50px;
+  font-weight: normal;
+  background: darkcyan;
+  color: magenta;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .takeELetter {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkorange;
+  color: lightblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
 
 /* UP word */
 
 .upULetter {
+  font-size: 40px;
+  font-weight: normal;
+  background: green;
+  color: violet;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .upPLetter {
+  font-size: 50px;
+  font-weight: bold;
+  background: greenyellow;
+  color: orange;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
+  font-size: 70px;
+  font-weight: bold;
+  background: purple;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
+
 .gardeningALetter {
+  font-size: 50px;
+  font-weight: normal;
+  background: darkcyan;
+  color: magenta;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .gardeningRLetter {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkorange;
+  color: lightblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .gardeningDLetter {
+  font-size: 40px;
+  font-weight: normal;
+  background: green;
+  color: violet;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .gardeningELetter {
+  font-size: 50px;
+  font-weight: bold;
+  background: greenyellow;
+  color: orange;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .gardeningNLetter {
+  font-size: 70px;
+  font-weight: bold;
+  background: purple;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
+
 .gardeningILetter {
+  font-size: 50px;
+  font-weight: normal;
+  background: darkcyan;
+  color: magenta;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .gardeningNTwoLetter {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkorange;
+  color: lightblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .gardeningGTwoLetter {
+  font-size: 40px;
+  font-weight: normal;
+  background: green;
+  color: violet;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
+  font-size: 50px;
+  font-weight: bold;
+  background: greenyellow;
+  color: orange;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .becauseELetter {
+  font-size: 70px;
+  font-weight: bold;
+  background: purple;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
+
 .becauseCLetter {
+  font-size: 50px;
+  font-weight: normal;
+  background: darkcyan;
+  color: magenta;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .becauseALetter {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkorange;
+  color: lightblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .becauseULetter {
+  font-size: 40px;
+  font-weight: normal;
+  background: green;
+  color: violet;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .becauseSLetter {
+  font-size: 50px;
+  font-weight: bold;
+  background: greenyellow;
+  color: orange;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .becauseETwoLetter {
+  font-size: 70px;
+  font-weight: bold;
+  background: purple;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
 
 /* THEY word */
 
 .theyTLetter {
+  font-size: 50px;
+  font-weight: bold;
+  background: greenyellow;
+  color: orange;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .theyHLetter {
+  font-size: 70px;
+  font-weight: bold;
+  background: purple;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
+
 .theyELetter {
+  font-size: 50px;
+  font-weight: normal;
+  background: darkcyan;
+  color: magenta;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .theyYLetter {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkorange;
+  color: lightblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
 
 /* WANTED word */
 
 .wantedWLetter {
+  font-size: 40px;
+  font-weight: normal;
+  background: green;
+  color: violet;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .wantedALetter {
+  font-size: 50px;
+  font-weight: bold;
+  background: greenyellow;
+  color: orange;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .wantedNLetter {
+  font-size: 70px;
+  font-weight: bold;
+  background: purple;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
+
 .wantedTLetter {
+  font-size: 50px;
+  font-weight: normal;
+  background: darkcyan;
+  color: magenta;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .wantedELetter {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkorange;
+  color: lightblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .wantedDLetter {
+  font-size: 40px;
+  font-weight: normal;
+  background: green;
+  color: violet;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
 
 /* TO word */
 
 .toTLetter {
+  font-size: 40px;
+  font-weight: normal;
+  background: green;
+  color: tomato;
+  text-emphasis: none;
+  text-decoration: underline;
 }
+
 .toOLetter {
+  font-size: 70px;
+  font-weight: bold;
+  background: darkblue;
+  color: gold;
+  text-emphasis: none;
+  text-decoration: overline;
 }
 
 /* IMPROVE word */
 
 .improveILetter {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkorange;
+  color: lightblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .improveMLetter {
+  font-size: 40px;
+  font-weight: normal;
+  background: green;
+  color: violet;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .improvePLetter {
+  font-size: 50px;
+  font-weight: bold;
+  background: greenyellow;
+  color: orange;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .improveRLetter {
+  font-size: 70px;
+  font-weight: bold;
+  background: purple;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
+
 .improveOLetter {
+  font-size: 50px;
+  font-weight: normal;
+  background: darkcyan;
+  color: magenta;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .improveVLetter {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkorange;
+  color: lightblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .improveELetter {
+  font-size: 40px;
+  font-weight: normal;
+  background: green;
+  color: violet;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
 
 /* THEIR word */
 
 .theirTLetter {
+  font-size: 50px;
+  font-weight: bold;
+  background: greenyellow;
+  color: orange;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .theirHLetter {
+  font-size: 70px;
+  font-weight: bold;
+  background: purple;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
+
 .theirELetter {
+  font-size: 50px;
+  font-weight: normal;
+  background: darkcyan;
+  color: magenta;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .theirILetter {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkorange;
+  color: lightblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .theirRLetter {
+  font-size: 40px;
+  font-weight: normal;
+  background: green;
+  color: violet;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
 
 /* ROOT word */
 
 .rootRLetter {
+  font-size: 50px;
+  font-weight: bold;
+  background: greenyellow;
+  color: orange;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .rootOLetter {
+  font-size: 70px;
+  font-weight: bold;
+  background: purple;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
+
 .rootOTwoLetter {
+  font-size: 50px;
+  font-weight: normal;
+  background: darkcyan;
+  color: magenta;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .rootTLetter {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkorange;
+  color: lightblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
 
 /* SKILLS word */
 
 .skillsSLetter {
+  font-size: 40px;
+  font-weight: normal;
+  background: green;
+  color: violet;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .skillsKLetter {
+  font-size: 50px;
+  font-weight: bold;
+  background: greenyellow;
+  color: orange;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .skillsILetter {
+  font-size: 70px;
+  font-weight: bold;
+  background: purple;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
+
 .skillsLLetter {
+  font-size: 50px;
+  font-weight: normal;
+  background: darkcyan;
+  color: magenta;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
+
 .skillsLTwoLetter {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkorange;
+  color: lightblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .skillsSTwoLetter {
+  font-size: 40px;
+  font-weight: normal;
+  background: green;
+  color: violet;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: "Ruslan Display", sans-serif;
 }
 
 /* SYMBOLS */
 
 .hyphen {
+  font-size: 60px;
+  font-weight: bold;
+  background: darkorange;
+  color: lightblue;
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-family: "Barrio", system-ui;
 }
+
 .exclamation-mark {
+  font-size: 70px;
+  font-weight: bold;
+  background: purple;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
+
 .question-mark {
+  font-size: 70px;
+  font-weight: bold;
+  background: purple;
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Rubik Bubbles", system-ui;
 }
