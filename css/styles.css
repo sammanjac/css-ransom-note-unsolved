@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
 /* Fonts added for styles */
 @import url('https://fonts.googleapis.com/css2?family=Barrio&family=Rubik+Bubbles&family=Ruslan+Display&display=swap');
 
@@ -682,6 +679,7 @@ body {
   color: tomato;
   text-emphasis: none;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .toOLetter {
