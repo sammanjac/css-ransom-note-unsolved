@@ -48,7 +48,7 @@ This assignment should prove that a student is able to:
 ## Specific requirements
 
 - [x] Check out the sample image of a completed assignment to see the expected outcome in /assets/images/. You don't need to imitate it exactly, feel free to use any desired letter styles.
-- [ ] You should have at least 10 different styles for the letters. A "unique" style means a distinct combination of:
+- [x] You should have at least 10 different styles for the letters. A "unique" style means a distinct combination of:
   - Font size
   - Font color
   - Font weight
